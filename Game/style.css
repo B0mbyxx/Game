@@ -1,0 +1,47 @@
+body{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    font-size: 15px;
+}
+
+.pagination{
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+.pagination a{
+    font-size:40px;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+
+/* element a který není aktivní změní barvu */
+.pagination a:hover{
+    background-color: rgb(209, 209, 209);
+    border-radius: 5px;
+}
+
+#zpet:hover{
+    background-color: red;
+}
+
+#special:hover{
+    background-color: rgb(54, 163, 70);
+}
